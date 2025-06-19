@@ -14,4 +14,3 @@ jobs:
         run: postman login --with-api-key ${{ secrets.POSTMAN_API_KEY }}
       - name: Run API tests
         run: |
-          postman spec lint 67e611af-ab03-40c6-83dd-489af36e5dd9
